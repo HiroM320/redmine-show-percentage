@@ -1,0 +1,15 @@
+{
+    "manifest_version": 3,
+    "name": "Redmine Show Done Ratio",
+    "version": "1.0.0",
+    "description": "チケットの進捗率を数値で表示する",
+    "content_scripts": [{
+        "matches": [
+            "http://*/*",
+            "https://*/*"
+        ],
+        "js": [
+            "content.js"
+        ]
+    }]
+}
